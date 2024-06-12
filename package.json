@@ -1,0 +1,17 @@
+{
+  "name": "odin-testing-practice",
+  "version": "1.0.0",
+  "description": "A testing practice to get familiar with writing tests",
+  "main": "capitalize.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
